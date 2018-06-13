@@ -19,3 +19,14 @@
 .ecco_container {
     margin-top: 10px;
 }
+
+/* Код для работы гармошки */
+
+.ecco_content {
+    height: 0;
+    overflow: hidden;
+}
+
+.ecco_elem:checked + .ecco_content {
+    height: auto;
+}
